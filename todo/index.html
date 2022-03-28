@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Todos</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="logo">Todos</div>
+            <ul>
+                <li><a href="#">Faqs</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">About-author</a></li>
+            </ul>
+            <div class="settings"><i class="fa-solid fa-gear"></i>
+                
+                <select class="themes" name="themes" id="themes">
+                    <option value="lime">lime</option>
+                    <option value="orange">orange</option>
+                    <option value="skyblue">skyblue</option>
+                    <option value="lightgray">lightgray</option>
+                </select>
+            </div>
+        </nav>
+
+        <div class="header">
+            <h1>Todo Application</h1>
+        </div>
+
+        <div class="todo-container">
+            <div class="todo">
+                <input type="text" placeholder="Add your Todo" id="todo">
+                <button id="btn"><i class="fa-solid fa-plus"></i></button>
+            </div>
+            <div class="todo-list-box">
+                <ul id="todo-list">
+                   <!-- <li><p>Go shoppping</p>
+                        <div class="icons">   
+                          <i class="fa-solid fa-circle-check success"i></i>
+                          <i class="fa-solid fa-trash-can trash" id="trash" i></i>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+ <script src="index.js"></script>   
+</body>
+</html>
